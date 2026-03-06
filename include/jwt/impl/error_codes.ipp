@@ -23,6 +23,8 @@ SOFTWARE.
 #ifndef CPP_JWT_ERROR_CODES_IPP
 #define CPP_JWT_ERROR_CODES_IPP
 
+#include "jwt/error_codes.hpp"
+
 namespace jwt {
 // Anonymous namespace
 namespace {

@@ -25,6 +25,8 @@
 #ifndef STACK_ALLOC_IPP
 #define STACK_ALLOC_IPP
 
+#include "jwt/stack_alloc.hpp"
+
 namespace jwt {
 
 template <size_t N, size_t alignment>

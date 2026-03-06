@@ -374,7 +374,9 @@ using string_view = basic_string_view<char>;
 
 } // END namespace jwt
 
+#ifndef JWT_STRING_VIEW_IPP
 #include "jwt/impl/string_view.ipp"
+#endif
 
 #endif // defined(__cpp_lib_string_view)
 

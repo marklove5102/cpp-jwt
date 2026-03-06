@@ -551,7 +551,9 @@ private:
 
 } // END namespace jwt
 
+#ifndef CPP_JWT_ALGORITHM_IPP
 #include "jwt/impl/algorithm.ipp"
+#endif
 
 
 #endif

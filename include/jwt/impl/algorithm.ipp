@@ -23,6 +23,8 @@ SOFTWARE.
 #ifndef CPP_JWT_ALGORITHM_IPP
 #define CPP_JWT_ALGORITHM_IPP
 
+#include "jwt/algorithm.hpp"
+
 namespace jwt {
 
 inline verify_result_t is_secret_a_public_key(const jwt::string_view secret)

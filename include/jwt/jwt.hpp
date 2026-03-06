@@ -1202,6 +1202,8 @@ jwt_object decode(const jwt::string_view enc_str,
 } // END namespace jwt
 
 
+#ifndef JWT_IPP
 #include "jwt/impl/jwt.ipp"
+#endif
 
 #endif

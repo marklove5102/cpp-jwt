@@ -23,6 +23,10 @@ SOFTWARE.
 #ifndef JWT_STRING_VIEW_IPP
 #define JWT_STRING_VIEW_IPP
 
+#include "jwt/string_view.hpp"
+#include <ostream>
+#include <cstring>
+
 namespace jwt {
 
 template <typename CharT, typename Traits>

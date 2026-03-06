@@ -133,6 +133,8 @@ namespace std
   struct is_error_code_enum<jwt::VerificationErrc>: true_type {};
 }
 
+#ifndef CPP_JWT_ERROR_CODES_IPP
 #include "jwt/impl/error_codes.ipp"
+#endif
 
 #endif

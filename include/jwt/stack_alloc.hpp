@@ -195,6 +195,8 @@ private: // Private data members
 
 } // END namespace jwt
 
+#ifndef STACK_ALLOC_IPP
 #include "jwt/impl/stack_alloc.ipp"
+#endif
 
 #endif
